@@ -1,0 +1,20 @@
+.header {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bio {
+    color: #41465e;
+}
+
+.bio .hour {
+    color: grey;
+}
+
+.content {
+    background-color: yellow;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+.static div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+.static .middle {
+    background-color: lightgreen;
+    position: static;
+    /* top, left, bottom, right */
+    top: 100px;
+    left: 100px;
+}
+
+.relative div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+.relative .middle {
+    background-color: lightgreen;
+    position: relative;
+    /* top, left, bottom, right */
+    top: 100px;     
+    left: 100px;
+}
+
+.absolute .middle {
+    background-color: lightgreen;
+    position: absolute;
+    /* top, left, bottom, right */
+    width: 30px;
+    height: 30px;
+}
+
+.absolute div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+.fixed .middle {
+    background-color: lightgreen;
+    position: fixed;
+    /* top, left, bottom, right */
+    bottom: 200px;
+    right: 200px;
+}
+
+.fixed div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+

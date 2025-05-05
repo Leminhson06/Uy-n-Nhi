@@ -1,0 +1,49 @@
+.transition {
+    background-color: black;
+    color: pink;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    transition: border-radius 4s 2s, background-color 2s, color 4s;
+}
+
+.transition:hover {
+    border-radius: 100%;
+    background-color: pink;
+    color: black;
+}
+
+.parent {
+    margin-top: 30px;
+    background-color: #8ecae6;
+}
+
+.child {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border: 5px solid blue;
+    margin-bottom: 30px;
+    transition: 3s;
+}
+
+.parent:hover .child {
+    margin-left: 300px;
+}
+
+.child:nth-of-type(1) {
+    transition-timing-function: ease-in;
+}
+
+.child:nth-of-type(2) {
+    transition-timing-function: ease-out;
+}
+
+.child:nth-of-type(3) {
+    transition-timing-function: ease-in-out;
+}
+
+.child:nth-of-type(4) {
+    transition-timing-function: step-end;
+}
